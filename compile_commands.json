@@ -1,0 +1,194 @@
+[
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/FrameworkArduino/CDC.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/CDC.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/CDC.cpp",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/CDC.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/FrameworkArduino/HardwareSerial.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial.cpp",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/HardwareSerial.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/FrameworkArduino/HardwareSerial0.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial0.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial0.cpp",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/HardwareSerial0.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/FrameworkArduino/HardwareSerial1.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial1.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial1.cpp",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/HardwareSerial1.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/FrameworkArduino/HardwareSerial2.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial2.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial2.cpp",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/HardwareSerial2.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/FrameworkArduino/HardwareSerial3.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial3.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/HardwareSerial3.cpp",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/HardwareSerial3.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/FrameworkArduino/IPAddress.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/IPAddress.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/IPAddress.cpp",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/IPAddress.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/FrameworkArduino/PluggableUSB.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/PluggableUSB.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/PluggableUSB.cpp",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/PluggableUSB.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/FrameworkArduino/Print.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/Print.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/Print.cpp",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/Print.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/FrameworkArduino/Stream.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/Stream.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/Stream.cpp",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/Stream.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/FrameworkArduino/Tone.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/Tone.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/Tone.cpp",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/Tone.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/FrameworkArduino/USBCore.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/USBCore.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/USBCore.cpp",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/USBCore.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/a-star32U4/FrameworkArduino/WInterrupts.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/WInterrupts.c",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/WInterrupts.c",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/WInterrupts.c.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/FrameworkArduino/WMath.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/WMath.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/WMath.cpp",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/WMath.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/FrameworkArduino/WString.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/WString.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/WString.cpp",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/WString.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/FrameworkArduino/abi.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/abi.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/abi.cpp",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/abi.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/a-star32U4/FrameworkArduino/hooks.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/hooks.c",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/hooks.c",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/hooks.c.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/FrameworkArduino/main.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/main.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/main.cpp",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/main.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/FrameworkArduino/new.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/new.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/new.cpp",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/new.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/a-star32U4/FrameworkArduino/wiring.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/wiring.c",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/wiring.c",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/wiring.c.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/a-star32U4/FrameworkArduino/wiring_analog.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_analog.c",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_analog.c",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/wiring_analog.c.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/a-star32U4/FrameworkArduino/wiring_digital.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_digital.c",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_digital.c",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/wiring_digital.c.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -mmcu=atmega32u4 -x assembler-with-cpp -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo -c -o .pio/build/a-star32U4/FrameworkArduino/wiring_pulse.S.o /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.S",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.S",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/wiring_pulse.S.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/a-star32U4/FrameworkArduino/wiring_pulse.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.c",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_pulse.c",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/wiring_pulse.c.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-gcc -o .pio/build/a-star32U4/FrameworkArduino/wiring_shift.c.o -c -std=gnu11 -fno-fat-lto-objects -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo /home/me/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_shift.c",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "/home/me/.platformio/packages/framework-arduino-avr/cores/arduino/wiring_shift.c",
+        "output": ".pio/build/a-star32U4/FrameworkArduino/wiring_shift.c.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/lib53f/FastGPIO/FastGPIO.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I.pio/libdeps/a-star32U4/FastGPIO -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo .pio/libdeps/a-star32U4/FastGPIO/FastGPIO.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": ".pio/libdeps/a-star32U4/FastGPIO/FastGPIO.cpp",
+        "output": ".pio/build/a-star32U4/lib53f/FastGPIO/FastGPIO.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/lib4ff/Pololu3piPlus32U4/Pololu3piPlus32U4BumpSensors.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I.pio/libdeps/a-star32U4/Pololu3piPlus32U4/src -I.pio/libdeps/a-star32U4/FastGPIO -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo .pio/libdeps/a-star32U4/Pololu3piPlus32U4/src/Pololu3piPlus32U4BumpSensors.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": ".pio/libdeps/a-star32U4/Pololu3piPlus32U4/src/Pololu3piPlus32U4BumpSensors.cpp",
+        "output": ".pio/build/a-star32U4/lib4ff/Pololu3piPlus32U4/Pololu3piPlus32U4BumpSensors.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/lib4ff/Pololu3piPlus32U4/Pololu3piPlus32U4Encoders.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I.pio/libdeps/a-star32U4/Pololu3piPlus32U4/src -I.pio/libdeps/a-star32U4/FastGPIO -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo .pio/libdeps/a-star32U4/Pololu3piPlus32U4/src/Pololu3piPlus32U4Encoders.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": ".pio/libdeps/a-star32U4/Pololu3piPlus32U4/src/Pololu3piPlus32U4Encoders.cpp",
+        "output": ".pio/build/a-star32U4/lib4ff/Pololu3piPlus32U4/Pololu3piPlus32U4Encoders.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/lib4ff/Pololu3piPlus32U4/Pololu3piPlus32U4IMU.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I.pio/libdeps/a-star32U4/Pololu3piPlus32U4/src -I.pio/libdeps/a-star32U4/FastGPIO -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo .pio/libdeps/a-star32U4/Pololu3piPlus32U4/src/Pololu3piPlus32U4IMU.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": ".pio/libdeps/a-star32U4/Pololu3piPlus32U4/src/Pololu3piPlus32U4IMU.cpp",
+        "output": ".pio/build/a-star32U4/lib4ff/Pololu3piPlus32U4/Pololu3piPlus32U4IMU.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/lib4ff/Pololu3piPlus32U4/Pololu3piPlus32U4LineSensors.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I.pio/libdeps/a-star32U4/Pololu3piPlus32U4/src -I.pio/libdeps/a-star32U4/FastGPIO -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo .pio/libdeps/a-star32U4/Pololu3piPlus32U4/src/Pololu3piPlus32U4LineSensors.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": ".pio/libdeps/a-star32U4/Pololu3piPlus32U4/src/Pololu3piPlus32U4LineSensors.cpp",
+        "output": ".pio/build/a-star32U4/lib4ff/Pololu3piPlus32U4/Pololu3piPlus32U4LineSensors.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/lib4ff/Pololu3piPlus32U4/Pololu3piPlus32U4Motors.cpp.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -I.pio/libdeps/a-star32U4/Pololu3piPlus32U4/src -I.pio/libdeps/a-star32U4/FastGPIO -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo .pio/libdeps/a-star32U4/Pololu3piPlus32U4/src/Pololu3piPlus32U4Motors.cpp",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": ".pio/libdeps/a-star32U4/Pololu3piPlus32U4/src/Pololu3piPlus32U4Motors.cpp",
+        "output": ".pio/build/a-star32U4/lib4ff/Pololu3piPlus32U4/Pololu3piPlus32U4Motors.cpp.o"
+    },
+    {
+        "command": "/home/me/.platformio/packages/toolchain-atmelavr/bin/avr-g++ -o .pio/build/a-star32U4/src/main.cc.o -c -fno-exceptions -fno-threadsafe-statics -fpermissive -std=gnu++11 -mmcu=atmega32u4 -Os -Wall -ffunction-sections -fdata-sections -flto -DPLATFORMIO=60119 -DARDUINO_AVR_A_STAR_32U4 -DF_CPU=16000000L -DARDUINO_ARCH_AVR -DARDUINO=10808 -DUSB_VID=0x1ffb -DUSB_PID=0x2300 \"-DUSB_PRODUCT=\\\"Pololu A-Star 32U4\\\"\" \"-DUSB_MANUFACTURER=\\\"Pololu Corporation\\\"\" -Iinclude -Isrc -I.pio/libdeps/a-star32U4/Pololu3piPlus32U4/src -I.pio/libdeps/a-star32U4/FastGPIO -I/home/me/.platformio/packages/framework-arduino-avr/cores/arduino -I/home/me/.platformio/packages/framework-arduino-avr/variants/leonardo src/main.cc",
+        "directory": "/home/me/Documents/pololu-lib",
+        "file": "src/main.cc",
+        "output": ".pio/build/a-star32U4/src/main.cc.o"
+    }
+]
