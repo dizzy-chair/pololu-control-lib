@@ -69,6 +69,35 @@ void line_follower::set_speed_profile(int16_t base, int16_t min_spd, int16_t max
 follower_state line_follower::state()         const { return _state; }
 bool           line_follower::is_calibrated() const { return _calibrated; }
 
+void line_follower::arm_sensing() {
+    if (!_calibrated) return;
+    _prev_error = 0;
+    _on_curve   = false;
+    _state      = follower_state::sensing;
+}
+
+sensor_reading_t line_follower::read_sensors() {
+    sensor_reading_t r{};
+    if (_state != follower_state::sensing && _state != follower_state::running) return r;
+
+    r.position = _follow_white
+        ? _sensors.readLineWhite(_sensor_values)
+        : _sensors.readLineBlack(_sensor_values);
+
+    r.error = (int16_t)r.position - 2000;
+
+    bool all_high = true;
+    for (uint8_t i = 0; i < 5; i++) {
+        r.sensor_values[i] = _sensor_values[i];
+        if (_sensor_values[i] < 900) all_high = false;
+    }
+
+    const int16_t abs_err = r.error < 0 ? -r.error : r.error;
+    r.line_lost = all_high || (abs_err > LF_LINE_LOST_THRESHOLD);
+
+    return r;
+}
+
 void line_follower::update() {
     if (_state != follower_state::running) return;
 

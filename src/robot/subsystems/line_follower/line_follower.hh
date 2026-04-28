@@ -13,7 +13,15 @@ struct line_follower_gains_t {
     float speed_reduction; // [motor_cmd / error_unit]
 };
 
-enum class follower_state : uint8_t { idle, calibrating, running };
+enum class follower_state : uint8_t { idle, calibrating, sensing, running };
+
+// Calibrated sensor snapshot returned by read_sensors().
+struct sensor_reading_t {
+    int16_t  error;            // position - 2000, range [-2000, 2000]
+    uint16_t position;         // readLine output [0, 4000]
+    uint16_t sensor_values[5]; // per-sensor calibrated [0, 1000]
+    bool     line_lost;        // all sensors > 900 OR |error| > LF_LINE_LOST_THRESHOLD
+};
 
 // PD line follower with adaptive speed and dual gain sets (straight / curve).
 class line_follower {
@@ -34,6 +42,13 @@ public:
 
     void set_gains(line_follower_gains_t gains);
     void set_speed_profile(int16_t base, int16_t min_spd, int16_t max_spd);
+
+    // Switch to sensing state so read_sensors() may be called. Requires calibration.
+    // Motor control becomes the caller's responsibility.
+    void arm_sensing();
+
+    // Read calibrated sensors and return a snapshot. Valid in sensing or running state.
+    sensor_reading_t read_sensors();
 
     follower_state state()         const;
     bool           is_calibrated() const;

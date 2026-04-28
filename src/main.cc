@@ -31,6 +31,7 @@ auto setup() -> void {
         pll::config::MC_KD,
     });
 
+    oled.setLayout21x8();
     oled.clear();
     oled.print(F("A:Cal  B:Run"));
 }
