@@ -54,8 +54,8 @@ void simple_line_follower::update() {
     const int16_t base_speed = (abs(error) > SLF_CURVE_THRESHOLD) ? SLF_CURVE_BASE_SPEED
                                                                    : SLF_BASE_SPEED;
 
-    const int16_t left  = constrain((int16_t)(base_speed + ctl), -SLF_MOTOR_MAX_CMD, SLF_MOTOR_MAX_CMD);
-    const int16_t right = constrain((int16_t)(base_speed - ctl), -SLF_MOTOR_MAX_CMD, SLF_MOTOR_MAX_CMD);
+    const int16_t left  = constrain((int16_t)(base_speed + ctl), SLF_MOTOR_MIN_CMD, SLF_MOTOR_MAX_CMD);
+    const int16_t right = constrain((int16_t)(base_speed - ctl), SLF_MOTOR_MIN_CMD, SLF_MOTOR_MAX_CMD);
 
     _drivetrain.set_motor_cmds(left, right);
     _prev_error = error;
