@@ -48,12 +48,14 @@ void simple_line_follower::update() {
         ? _sensors.readLineWhite(sensor_values)
         : _sensors.readLineBlack(sensor_values);
 
-    const int16_t error   = (int16_t)position - 2000;
-    const int16_t error_d = error - _prev_error;
-    const float   ctl     = SLF_KP * error + SLF_KD * error_d;
+    const int16_t error      = (int16_t)position - 2000;
+    const int16_t error_d    = error - _prev_error;
+    const float   ctl        = SLF_KP * error + SLF_KD * error_d;
+    const int16_t base_speed = (abs(error) > SLF_CURVE_THRESHOLD) ? SLF_CURVE_BASE_SPEED
+                                                                   : SLF_BASE_SPEED;
 
-    const int16_t left  = constrain((int16_t)(SLF_BASE_SPEED + ctl), -SLF_MOTOR_MAX_CMD, SLF_MOTOR_MAX_CMD);
-    const int16_t right = constrain((int16_t)(SLF_BASE_SPEED - ctl), -SLF_MOTOR_MAX_CMD, SLF_MOTOR_MAX_CMD);
+    const int16_t left  = constrain((int16_t)(base_speed + ctl), -SLF_MOTOR_MAX_CMD, SLF_MOTOR_MAX_CMD);
+    const int16_t right = constrain((int16_t)(base_speed - ctl), -SLF_MOTOR_MAX_CMD, SLF_MOTOR_MAX_CMD);
 
     _drivetrain.set_motor_cmds(left, right);
     _prev_error = error;
