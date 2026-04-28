@@ -1,14 +1,14 @@
 #include <Wire.h>
 #include <Pololu3piPlus32U4.h>
 #include "robot/robot.hh"
-#include "robot/subsystems/drivetrain/config.hh"
-#include "robot/subsystems/line_follower/line_follower.hh"
-#include "robot/subsystems/line_follower/line_follower_config.hh"
+#include "robot/subsystems/line_follower/simple_line_follower.hh"
+#include "robot/subsystems/line_follower/simple_line_follower_config.hh"
 
 using namespace Pololu3piPlus32U4;
 
-static pll::robot        robot;
-static pll::subsystems::line_follower follower(pll::config::LF_FOLLOW_WHITE);
+static pll::robot robot;
+static pll::subsystems::simple_line_follower follower(robot.drivetrain(),
+                                                      pll::config::SLF_FOLLOW_WHITE);
 
 static OLED    oled;
 static ButtonA button_a;
@@ -17,19 +17,6 @@ static ButtonB button_b;
 auto setup() -> void {
     Wire.begin();
     robot.init();  // robot must be held still during gyro calibration
-
-    robot.drivetrain().left_motor_ctrl().set_gains({
-        pll::config::MC_KFF,
-        pll::config::MC_KP,
-        pll::config::MC_KI,
-        pll::config::MC_KD,
-    });
-    robot.drivetrain().right_motor_ctrl().set_gains({
-        pll::config::MC_KFF + 15.0f,
-        pll::config::MC_KP,
-        pll::config::MC_KI,
-        pll::config::MC_KD,
-    });
 
     oled.setLayout21x8();
     oled.clear();
@@ -44,12 +31,9 @@ auto loop() -> void {
 
     if (button_a.getSingleDebouncedPress()) {
         follower.stop();
-        robot.drivetrain().stop();
-
         oled.clear();
         oled.print(F("Calibrating"));
         follower.calibrate();
-
         oled.clear();
         oled.print(F("Cal OK"));
         oled.gotoXY(0, 1);
@@ -57,7 +41,7 @@ auto loop() -> void {
     }
 
     if (button_b.getSingleDebouncedPress()) {
-        if (follower.state() == pll::subsystems::follower_state::running) {
+        if (follower.state() == pll::subsystems::simple_follower_state::running) {
             follower.stop();
             oled.clear();
             oled.print(F("Stopped"));
@@ -71,10 +55,8 @@ auto loop() -> void {
         }
     }
 
-    // Line follower and drivetrain both drive motors; only one runs at a time.
-    if (follower.state() == pll::subsystems::follower_state::running) {
+    if (follower.state() == pll::subsystems::simple_follower_state::running)
         follower.update();
-    } else {
-        robot.update(dt_s);
-    }
+
+    robot.update(dt_s);  // always runs: keeps odometry updated; skips PID when follower is active
 }

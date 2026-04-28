@@ -22,6 +22,10 @@ public:
 
     void set_speeds(pll::chassis_speeds speeds);
 
+    // Bypass velocity PID and apply raw motor commands directly.
+    // Odometry continues to run on each update() call.
+    void set_motor_cmds(int16_t left, int16_t right);
+
     // Cut power immediately and clear velocity setpoint.
     void stop();
 
@@ -44,6 +48,10 @@ private:
 
     int16_t _gyro_bias;   // [LSB]
     bool    _imu_ok;
+
+    bool    _direct_mode  = false;
+    int16_t _direct_left  = 0;
+    int16_t _direct_right = 0;
 };
 
 }  // namespace pll::subsystems

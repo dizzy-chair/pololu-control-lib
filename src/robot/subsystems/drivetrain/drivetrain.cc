@@ -44,8 +44,16 @@ bool drivetrain::init() {
 
 void drivetrain::set_speeds(pll::chassis_speeds speeds) { _desired = speeds; }
 
+void drivetrain::set_motor_cmds(int16_t left, int16_t right) {
+    _direct_left  = left;
+    _direct_right = right;
+    _direct_mode  = true;
+    Mot::setSpeeds(left, right);
+}
+
 void drivetrain::stop() {
-    _desired = {0.0f, 0.0f};
+    _direct_mode = false;
+    _desired     = {0.0f, 0.0f};
     Mot::setSpeeds(0, 0);
     _left_ctrl.reset();
     _right_ctrl.reset();
@@ -80,14 +88,16 @@ void drivetrain::update(float dt_s) {
 
     _odometry.update(dl, dr, dt_s, gyro_z, _imu_ok);
 
-    float desired_left_mps  = 0.0f;
-    float desired_right_mps = 0.0f;
-    to_wheel_speeds(_desired, desired_left_mps, desired_right_mps);
+    if (!_direct_mode) {
+        float desired_left_mps  = 0.0f;
+        float desired_right_mps = 0.0f;
+        to_wheel_speeds(_desired, desired_left_mps, desired_right_mps);
 
-    const int16_t left_cmd  = _left_ctrl.update(desired_left_mps,  _left_vel_mps,  dt_s);
-    const int16_t right_cmd = _right_ctrl.update(desired_right_mps, _right_vel_mps, dt_s);
+        const int16_t left_cmd  = _left_ctrl.update(desired_left_mps,  _left_vel_mps,  dt_s);
+        const int16_t right_cmd = _right_ctrl.update(desired_right_mps, _right_vel_mps, dt_s);
 
-    Mot::setSpeeds(left_cmd, right_cmd);
+        Mot::setSpeeds(left_cmd, right_cmd);
+    }
 }
 
 }  // namespace pll::subsystems
